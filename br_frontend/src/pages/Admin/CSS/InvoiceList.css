@@ -1,0 +1,28 @@
+.invoice-list-page-container {
+    padding: 20px;
+}
+
+.invoice-list-page-add-button {
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.invoice-list-page-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.invoice-list-page-table th, .invoice-list-page-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.invoice-list-page-table th {
+    background-color: #f2f2f2;
+}

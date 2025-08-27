@@ -1,0 +1,40 @@
+.staff-list-page-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.staff-list-page-add-button {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    align-self: flex-end;
+}
+
+.staff-list-page-add-button:hover {
+    background-color: #0056b3;
+}
+
+.staff-list-page-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.staff-list-page-table th, .staff-list-page-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.staff-list-page-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.staff-list-page-table tr:hover {
+    background-color: #f1f1f1;
+}

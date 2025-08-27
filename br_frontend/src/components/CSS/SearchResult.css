@@ -1,0 +1,67 @@
+.search-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.search-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-card-body {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.search-card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.search-card-author,
+.search-card-price {
+    margin-bottom: 1rem;
+}
+
+.search-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.search-no-results {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .search-card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .search-card-container {
+        grid-template-columns: 1fr;
+    }
+}

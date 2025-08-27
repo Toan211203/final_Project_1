@@ -1,0 +1,18 @@
+.reviews-list-page-container {
+    padding: 20px;
+}
+
+.reviews-list-page-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.reviews-list-page-table th, .reviews-list-page-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.reviews-list-page-table th {
+    background-color: #f2f2f2;
+}

@@ -1,0 +1,39 @@
+.create-user-page-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.create-user-input-group {
+    margin-bottom: 15px;
+}
+
+.create-user-input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.create-user-input-group input,
+.create-user-input-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.create-user-submit-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-user-submit-button:hover {
+    background-color: #0056b3;
+}
+
+.create-user-error-message {
+    color: red;
+    margin-bottom: 15px;
+}

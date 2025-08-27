@@ -1,0 +1,73 @@
+.genre-list-page-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.genre-list-page-add-button {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    align-self: flex-end;
+}
+
+.genre-list-page-add-button:hover {
+    background-color: #0056b3;
+}
+
+.genre-list-page-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.genre-list-page-table th, .genre-list-page-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.genre-list-page-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.genre-list-page-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.genre-list-page-action-button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none; /* Remove underline for links */
+}
+
+/* Detail button styles */
+.genre-list-page-action-button.detail {
+    background-color: #28a745; /* Green */
+    color: white;
+}
+
+.genre-list-page-action-button.detail:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Delete button styles */
+.genre-list-page-action-button.delete {
+    background-color: #dc3545; /* Red */
+    color: white;
+}
+
+.genre-list-page-action-button.delete:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
